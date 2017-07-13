@@ -281,6 +281,10 @@
       echo "Для товар $this->name установлено свойство '$property' = $value<br/>";
     }
 
+    public function putBasket() {
+        echo "Товар $name поместили в корзину";
+ж   }
+
     public function getPrice($discount) {
       $price = $this->price  - $this->price * $discount / 100 ;
       return $price;
