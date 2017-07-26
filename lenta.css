@@ -14,11 +14,12 @@
 }
 
 a:hover {
-	color: #bf0000;
+	color: darkblue;
 }
 
 a {
 	text-decoration: none;
+	color: #bf0000;
 }
 
 p {

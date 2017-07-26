@@ -73,7 +73,7 @@
 
         public function getMain()
         {
-            return $this->getUser().' '.$this->getDate().' '.$this->getTime();
+            return $this->getUser() . ' ' . $this->getDate() . ' ' . $this->getTime();
         }
 
     }
