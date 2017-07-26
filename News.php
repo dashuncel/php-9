@@ -75,7 +75,7 @@ class News {
 
     public function getComments($comment)
     {
-        return "<p class='comment'>".$comment->getMain().' '.$comment->getText()."</p>";
+        return "<p class='comment'> {$comment->getMain()} {$comment->getText()} </p>";
     }
 }
 
