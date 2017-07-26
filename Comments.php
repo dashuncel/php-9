@@ -5,7 +5,7 @@
 	    private $date;  // дата комментария
 	    private $time;  // время комментария
 	    private $text;  // тело комментария
-	    private $news;  // ссылка на новость
+	    private $news;  // ссылка на новость (news->id)
 
         public function __construct($user, $date, $time, $text, $news)
         {
@@ -71,6 +71,9 @@
             return $this;
         }
 
+        public function getMain()
+        {
+            return $this->getUser().' '.$this->getDate().' '.$this->getTime();
+        }
 
-
-	}
+    }

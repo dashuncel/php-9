@@ -1,15 +1,39 @@
 .header {
 	border-bottom: 4px groove black;
-	font-weight: bold;	
+	font-weight: bold;
 	text-transform: uppercase;
 	padding: 10px; 
 }
 
 .news {
-	border-bottom: 2px dashed black;
+	border-bottom: 1px dashed black;
 	display: block;
-	width: 50%;
-	height: 20px;
+	width: 80%;
 	padding: 10px;
+	font: normal italic 15px serif;
 }
 
+a:hover {
+	color: #bf0000;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font: normal italic 10px serif;
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.comment {
+    text-indent: 0;
+	margin-top: 10px;
+	padding-left: 50px;
+	font-style: italic;
+	line-height: 0.8;
+}
